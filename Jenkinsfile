@@ -14,6 +14,18 @@ pipeline{
       }
      
     }
+   
+   stage('deploy'){
+    steps{
+          sshagent(['112']) {
+        
+           
+}
+    
+    }
+   }
+   
+   
   
   }
  
