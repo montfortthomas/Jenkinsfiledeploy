@@ -9,7 +9,7 @@ pipeline{
      } 
     stage('pull code'){
       steps{
-       sh "git pull"
+       sh " git pull --set-upstream origin main"
       
       }
      
