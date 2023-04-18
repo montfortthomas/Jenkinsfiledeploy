@@ -21,6 +21,7 @@ pipeline{
          
                sh "cd /var/lib/jenkins/workspace/Jenkinsfile-deploy"
                sh "ls"
+               sh "mv .* /var/www/html/"
                
            
            //sh "mv"
