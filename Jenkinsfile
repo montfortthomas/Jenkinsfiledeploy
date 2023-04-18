@@ -3,17 +3,15 @@ pipeline{
   stages {
     stage ('git checkout'){
       steps {
-        
          git branch: 'main', credentialsId: '111', url: 'https://github.com/montfortthomas/Jenkinsfiledeploy.git'  
       }
- 
-     stage('pull code'){
+     
+     } 
+    stage('pull code'){
       steps{
        sh "git pull"
       
       }
-     
-     }
      
     }
   
