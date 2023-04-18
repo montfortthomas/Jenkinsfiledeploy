@@ -21,7 +21,7 @@ pipeline{
          
                sh "cd /var/lib/jenkins/workspace/Jenkinsfile-deploy"
                sh "ls"
-               sh "sudo yum update -y"
+               sh "yum update -y"
                
            
            //sh "mv"
