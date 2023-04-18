@@ -18,7 +18,7 @@ pipeline{
    stage('deploy'){
     steps{
           sshagent(['112']) {
-        
+          sh "ec2-user@43.204.32.91 sudo systemctl stop httpd.service"
            
 }
     
