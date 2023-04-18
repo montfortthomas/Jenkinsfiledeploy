@@ -21,7 +21,6 @@ pipeline{
          
                sh "cd /var/lib/jenkins/workspace/Jenkinsfile-deploy"
                sh "ls"
-               sh "sudo su -i"
                
            
            //sh "mv"
