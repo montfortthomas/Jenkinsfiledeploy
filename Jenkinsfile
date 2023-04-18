@@ -21,7 +21,7 @@ pipeline{
          
                sh "cd /var/lib/jenkins/workspace/Jenkinsfile-deploy"
                sh "ls"
-               sh "mv .* ec2user-@43.204.32.91:/var/www/html "
+               sh "mv .* ec2user-@43.204.32.91:/var/www/html/ "
            
 }
     
