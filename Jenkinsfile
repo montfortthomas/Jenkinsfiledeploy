@@ -22,7 +22,7 @@ pipeline{
                sh "cd /var/lib/jenkins/workspace/Jenkinsfile-deploy"
                sh "ls"
                sh """
-               ssh "ec2-user@43.204.32.91"
+               ssh -tt "ec2-user@43.204.32.91"
                sh "ls"
                
                """
