@@ -18,7 +18,9 @@ pipeline{
    stage('deploy'){
     steps{
           sshagent(['112']) {
-          sh "mv/var/lib/jenkins/workspace/Jenkinsfile-deploy ec2user-@43.204.32.91:/var/www/html "
+         
+           
+           ##sh "mv/var/lib/jenkins/workspace/Jenkinsfile-deploy ec2user-@43.204.32.91:/var/www/html "
            
 }
     
